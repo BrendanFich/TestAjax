@@ -11,7 +11,7 @@
 		xhr.send()
 		xhr.onload = function(e){
 			if((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304){
-				console.log(xhr.responseText())
+				console.log(xhr.responseText)
 			}else{
 				console.log('服务器异常')
 			}
